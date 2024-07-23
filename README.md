@@ -33,8 +33,10 @@ Check out the live demo [here](https://apurakshit2001.github.io/Toggle-GIF/).
 
 ## Screenshots
 
-![Screenshot 1](./screenshots/screenshot1.png)
-![Screenshot 2](./screenshots/screenshot2.png)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/63180791-d087-46f6-b139-be747eab326d" alt="Screenshot 1" width="45%">
+    <img src="https://github.com/user-attachments/assets/697db4f4-3a4d-45c1-b922-c4f00be75ae4" alt="Screenshot 2" width="45%">
+</p>
 
 ## Contributing
 
@@ -48,4 +50,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Inspiration from various toggle switch designs found online.
 - Background images used in the project.
-
