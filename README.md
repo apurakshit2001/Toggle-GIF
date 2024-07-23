@@ -33,8 +33,9 @@ Check out the live demo [here](https://apurakshit2001.github.io/Toggle-GIF/).
 
 ## Screenshots
 
-![Screenshot 1](./screenshots/screenshot1.png)
-![Screenshot 2](./screenshots/screenshot2.png)
+
+![Screenshot 1](https://github.com/user-attachments/assets/63180791-d087-46f6-b139-be747eab326d)
+![Screenshot 2](https://github.com/user-attachments/assets/697db4f4-3a4d-45c1-b922-c4f00be75ae4)
 
 ## Contributing
 
