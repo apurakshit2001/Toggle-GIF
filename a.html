@@ -1,12 +1,13 @@
-<!DOCTYPE html>
+
+
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toggle Example</title>
-    <!-- ONLY INTENDED FOR MOBILE -->
-    <!-- IN BIG SCREEN THE BACKGROUND WILL DAMAGE -->
     <style>
         body {
             background: url(./img/giphy.webp);
@@ -32,6 +33,54 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            animation: rotate 0.2s infinite ease-in-out;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            10% {
+                transform: rotate(10deg);
+            }
+
+            20% {
+                transform: rotate(20deg);
+            }
+
+            30% {
+                transform: rotate(30deg);
+            }
+
+            40% {
+                transform: rotate(40deg);
+            }
+
+            50% {
+                transform: rotate(50deg);
+            }
+
+            60% {
+                transform: rotate(60deg);
+            }
+
+            70% {
+                transform: rotate(70deg);
+            }
+
+            80% {
+                transform: rotate(80deg);
+            }
+
+            90% {
+                transform: rotate(90deg);
+            }
+
+            100% {
+                transform: rotate(100deg);
+            }
+
         }
 
         .toggleContainer label {
@@ -54,29 +103,26 @@
             position: absolute;
             width: 18px;
             height: 18px;
-            top: 3px;
+            top: 3.5px;
             left: 5px;
             background: linear-gradient(180deg, #ffcc89, #d8860b);
-            border-radius: 50%;
+            border-radius: 50px;
             box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
             transition: 0.3s ease-in-out;
         }
 
-        #toggleCheckbox:checked + label {
+        #toggleCheckbox:checked+label {
             background: url(./img/image1.jpg);
             background-size: cover;
             border-color: black;
             box-shadow: inset 0 0 3px black;
         }
 
-        #toggleCheckbox:checked + label::after {
-            left: 46.5px;
-            top: 2px;
+
+        #toggleCheckbox:checked+label::after {
+            left: 45px;
             transform: translateX(-100%);
-            width: 20px;
-            height: 20px;
-            background: radial-gradient(circle at 30% 30%, transparent 50%, #777 51%);
-            border-radius: 50%;
+            background: linear-gradient(180deg, #777, #3a3a3a);
         }
 
         .toggleContainer label:active::after {
@@ -107,4 +153,4 @@
     </script>
 </body>
 
-</html>
+</html> -->

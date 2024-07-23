@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOrmal Toggle Example</title>
+    <style>
+        /* Basic toggle switch styling */
+        #darklight_toggle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .toggle-switch input + label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+            cursor: pointer;
+        }
+        .toggle-switch input + label:before {
+            content: "";
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: 26px;
+            height: 26px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        input:checked + label {
+            background-color: #2196F3;
+        }
+        input:checked + label:before {
+            transform: translateX(26px);
+        }
+    </style>
+</head>
+<body>
+    <div id="darklight_toggle">
+        <div class="toggle-switch">
+            <input type="checkbox" id="toggleCheckbox" checked="checked">
+            <label for="toggleCheckbox"></label>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle the toggle functionality
+        const toggleCheckbox = document.getElementById('toggleCheckbox');
+        toggleCheckbox.addEventListener('change', () => {
+            if (toggleCheckbox.checked) {
+                document.body.style.backgroundColor = '#f0f0f0';
+            } else {
+                document.body.style.backgroundColor = '#333';
+            }
+        });
+    </script>
+</body>
+</html>
